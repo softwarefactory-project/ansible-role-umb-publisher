@@ -1,0 +1,14 @@
+---
+galaxy_info:
+  author: Tristan de Cacqueary
+  description: An Ansible role to publish UMB message.
+  company: Red Hat, Inc.
+  license: Apache
+  min_ansible_version: 2.4
+  platforms:
+  - name: Fedora
+    versions:
+    - 29
+  categories:
+  - system
+dependencies: []

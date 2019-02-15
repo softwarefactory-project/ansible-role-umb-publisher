@@ -1,0 +1,9 @@
+---
+- name: Publish UMB message
+  amqp_publisher:
+    urls: "{{ umb_urls }}"
+    ca: "{{ umb_ca | default(omit) }}"
+    cert: "{{ umb_cert | default(omit) }}"
+    key: "{{ umb_key | default(omit) }}"
+    address: "{{ umb_address }}"
+    body: "{{ umb_body }}"
